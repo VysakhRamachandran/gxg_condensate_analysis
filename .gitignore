@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.virtual_documents/
+
+# simulation and derived data stay on the lab share
+*.xtc
+*.trr
+*.dcd
+*.gro
+*.pdb
+*.tpr
+*.npz
+*.pkl
+*.csv
+*.log
+cache/
+data/
+results/
+figs/
+figures/
+Figures/
