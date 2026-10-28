@@ -42,6 +42,24 @@ vysakh_analysis/
   fun_corr.py                     correlation-function helpers
   *.ipynb                         analysis notebooks (outputs stripped)
 
+notebooks/                        system building and core condensate analysis (outputs stripped)
+  make_system, peptide-maker,     build peptide sequences, mixtures and simulation systems
+  mixture_maker.py, traj_merger
+  cluster_analysis, clustering_*  condensate cluster identification and size analysis
+  clustering_analysis.py
+  Prolif_Analysis,                residue-residue contacts and interaction fingerprints
+  get_contacts_analysis,
+  Gly_vs_SideChain_Contacts
+  waterbridge_analysis,           water-bridged contacts and heatmaps
+  Heatmap_Maker
+  hbonding_tests,                 hydrogen bonding and solvent coordination
+  solvent_coordination
+  RDF_calc, rdf-visualization     radial distribution functions
+  MSD                             mean squared displacement
+  slab_analysis.py                slab density profiles
+  transformations.py              parsers for contact/interaction output files
+  *visual*, traj_viewer           trajectory and composition visualization
+
 plf_interactions.ipynb            ProLIF peptide interaction analysis
 plf_interactions/reduce_one.py    low-memory per-system reduction of ProLIF output
 chain_length/no_water.py          strip water from a topology/trajectory
