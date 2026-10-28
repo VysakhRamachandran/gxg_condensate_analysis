@@ -1,5 +1,11 @@
 # GXG condensate analysis
 
+<p align="center">
+  <img src="images/overview.png" alt="GXG peptide sequence design and condensate simulation snapshots" width="900">
+</p>
+<p align="center"><em>(A) Sequence design of the 14 systems: single-sticker 3- and 9-residue peptides
+and patterned 9-residue peptides. (B) Simulation snapshots of the condensates.</em></p>
+
 Analysis and plotting code for molecular dynamics simulations of GXG peptide
 condensates in explicit water. It covers condensate composition, water content
 and dynamics, peptide contact networks, chain conformation, and the manuscript
